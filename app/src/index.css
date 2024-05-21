@@ -1,0 +1,341 @@
+.form-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-main {
+  background-color: aqua;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: groove;
+  border-bottom: 3px;
+}
+/* body {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.inputl {
+  font-size: 25px;
+  border-radius: 3px;
+  border: 3px;
+  margin-top: 20px;
+}
+.buttons {
+  margin-top: 30px;
+}
+.btn-new {
+  background-color: rgb(110, 86, 218);
+  font-size: 25px;
+  color: #fff;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-sumbit {
+  background-color: rgb(89, 212, 89);
+  font-size: 25px;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.btn-new:hover {
+  background-color: rgb(11, 25, 219);
+}
+.btn-sumbit:hover {
+  background-color: rgb(14, 128, 14);
+}
+.body {
+  background-color: #41d0c7;
+  height: auto;
+  margin-top: 50px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-r {
+  font-size: 25px;
+  border-radius: 3px;
+  border: 3px;
+  border-color: blue;
+  margin-top: 20px;
+}
+.input-radio {
+  height: 20px;
+  width: 20px;
+  margin: 1%;
+}
+.form {
+  display: grid;
+  column-count: 2;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+}
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  background-color: #fff;
+}
+.btn-back {
+  background-color: rgb(207, 21, 21);
+  font-size: 25px;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.btn-back:hover {
+  background-color: rgb(251, 0, 0);
+}
+.label {
+  font-size: 20px;
+}
+.error-msg {
+  color: red;
+}
+.form-body {
+  width: 800px;
+}
+
+.input-group {
+  margin-top: 30 px;
+}
+.form-login {
+  margin-top: 50px;
+}
+.user-data {
+  background-color: rgb(0, 12, 12);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.back {
+  font-size: 25px;
+  background-color: tomato;
+  color: #fff;
+}
+.logot {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  margin: 5px 5px 5px 5px;
+}
+.footer-d {
+  margin-top: 50px;
+  background-color: rgb(60, 93, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid black; /* Gap between each grid item */
+}
+.h1 {
+  font-size: 3.2rem;
+}
+.h3 {
+  font-size: 3.2rem;
+}
+.footer-2 {
+  border-color: #fff;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+  color: #fff;
+}
+.footer-21 h1 {
+  color: #fff;
+}
+ul li {
+  list-style-type: none;
+}
+.footer-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  gap: 100px;
+}
+.inputl {
+  font-size: 30px;
+}
+.pp-2 {
+  margin-top: 25px;
+}
+.submit {
+  background-color: tomato;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.img-home-page {
+  margin-left: 300px;
+  height: 400px;
+  width: 900px;
+  border-radius: 6px;
+}
+.all-tables-list {
+  margin: 1px 1px 1px 1px;
+  border: #fff 10px;
+  background-color: blue;
+  border-radius: 9px;
+  box-shadow: 5px;
+}
+.input-d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+
+  background-color: rgba(224, 35, 208, 0.956);
+  color: black;
+  font-style: italic;
+}
+.input-1 {
+  font-size: 25px;
+  border-radius: 2px;
+  width: 120px;
+}
+.btn-delete {
+  margin-left: 10px;
+}
+.img-wrong {
+  height: 5px;
+  width: 5px;
+  float: left;
+}
+.list-tacker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-head {
+  position: relative;
+}
+
+.table-more {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.table-footer-btn {
+  position: relative;
+}
+.animation-h1 {
+  /* color: black; */
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  animation-direction: alternate;
+  white-space: nowrap;
+}
+@keyframes example {
+  form {
+    color: white;
+    left: 0%;
+  }
+  to {
+    color: purple;
+    left: 50xp;
+  }
+}
+.table-owned {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+.ima-btn {
+  position: relative;
+}
+.btn-bookk {
+  position: absolute;
+}
+.div-table {
+  position: relative;
+}
+.table-footer-btn {
+  position: absolute;
+  left: 30px;
+  top: 320px;
+  /* bottom: 2px; */
+}
+.table-owned {
+  display: flex;
+  align-items: baseline;
+}
+.all-home {
+  position: relative;
+}
+.image-slider {
+  /* position: absolute; */
+  border-radius: 10px;
+  margin-left: 250px;
+  height: 400px;
+  width: 70%;
+
+  background-image: url("https://t4.ftcdn.net/jpg/02/94/26/33/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
+
+  background-color: black;
+  box-shadow: 2px 2px 10px 8px black;
+  animation: slider 9s infinite linear;
+}
+@keyframes slider {
+  0% {
+    background-image: url("https://t4.ftcdn.net/jpg/02/94/26/33/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
+  }
+  25% {
+    background-image: url("https://media.istockphoto.com/id/1446478827/photo/a-chef-is-cooking-in-his-restaurants-kitchen.jpg?s=1024x1024&w=is&k=20&c=Wu7klZ4YOK506jBk_B6cJCsLUgoKBAPJ-O6Qe8Q_AFU=");
+  }
+  50% {
+    background-image: url("https://plus.unsplash.com/premium_photo-1679090005074-78e1f2f47649?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
+  75% {
+    background-image: url("https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+}
+.welcome-rest h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  /* background-color: blue; */
+  animation: colorchange 2s infinite linear;
+}
+@keyframes colorchange {
+  from {
+    color: mediumpurple;
+  }
+  to {
+    color: green;
+  }
+}
+.Header {
+  border: 2px solid black;
+  box-shadow: 1px 2px 10px black;
+}
+.div-table {
+  border: 2px solid black;
+  box-shadow: 1px 2px 20px black;
+}
+.inputl {
+  border: 2px solid black;
+  box-shadow: 1px 2px 20px black;
+}
+.btn-book {
+  cursor: pointer;
+}

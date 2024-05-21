@@ -1,0 +1,148 @@
+body {
+  background-color: bisque;
+}
+.div-table {
+  height: 380px;
+  width: 290px;
+  background-color: rgb(3, 9, 14);
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.div-head {
+  background-color: aqua;
+  width: 100%;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/* .div-table:hover {
+  height: 420px;
+  width: 330px;
+} */
+/* .div-head:hover {
+  width: 100%;
+} */
+/* img:hover {
+  height: 100%;
+  width: 100%;
+} */
+.body {
+  display: grid;
+  column-count: 4;
+  grid-template-columns: repeat(4, 0);
+}
+.dots {
+  margin-left: 90px;
+}
+.input-field {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputo {
+  font-size: 25px;
+  border-radius: 5px;
+  margin-left: 2px;
+  box-shadow: 2rem black;
+  background-color: cyan;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 15px;
+  row-gap: 15px;
+  font-size: 30px;
+  background-color: aquamarine;
+  width: 600px;
+}
+.btn-add {
+  font-size: 25px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgb(40, 6, 232);
+  color: #fff;
+}
+.btn-delete {
+  font-size: 25px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: red;
+  color: #fff;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+.header {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  background-color: #fff;
+  color: black;
+}
+.img-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.all-tables {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-gap: 10px;
+}
+
+.div-table {
+  border: 1px solid #ccc; /* Border for each table */
+}
+
+.img-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more {
+  height: 100px;
+  width: 100px;
+  background-color: chartreuse;
+  position: relative;
+  top: 100px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn-more {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+}
+.theme {
+  height: 100px;
+  width: 100px;
+  background-color: chartreuse;
+  position: relative;
+  /* top: 100px; */
+  /* left: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.all-tables {
+  position: relative;
+}
